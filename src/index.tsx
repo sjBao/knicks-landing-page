@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { LandingPage } from './pages/LandingPage';
+import './index.css';
 
 if (module.hot) module.hot.accept();
 
 ReactDOM.render(
-    <div>Hello World!</div>,
+    <LandingPage />,
     document.getElementById('app'),
 );
